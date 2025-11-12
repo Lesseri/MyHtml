@@ -31,3 +31,34 @@ td:hover {
 	text-shadow:
 	2px 2px 0 black;
 }
+
+.teapot {
+	background-color: #ff0000;
+	
+	transition:
+	background-color 0.5s ease;
+}
+
+.teapot:hover {
+	background-color: #00ff00
+}
+
+.border {
+	border-style: solid;
+	border-color: red;
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	
+	
+	margin: 0px 0px 0px 50px; /*TOP -> LEFT -> BOTTOM -> RIGHT */
+	border-radius: 50px 0px
+}
+
+.arrows {
+	background-color: red;
+	width: 180px;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 50px;
+}
